@@ -1,0 +1,136 @@
+\documentclass[10pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{lmodern}
+%\usepackage{subfigure}
+%\usepackage{wrapfig}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{María del Carmen González Martínez}
+\title{{\Huge Ejercicio del clase} }
+\date{\today}
+\begin{document}
+\maketitle
+
+
+\tableofcontents
+
+%nueva página en blanco sin título
+\newpage
+\section{Listas}
+\textbf{\textit{Listas con item}}
+\begin{itemize}
+\item Item1. En este caso ...
+\item Item2. En este otro caso ...
+\item Item3. En este caso ...
+\end{itemize}
+
+
+\textbf{\textit{Listas enumeradas}}
+\begin{enumerate}
+\item Partimos la cebolla en juliana.
+\item La sofreimos a fuego lento, hasta que esté transparente.
+\item Añadimos el bacon troceado a la cebolla doradita.
+\item Añadimos la nata y removemos hasta que espese.
+\item Finalmente añadimos el preparado a los macarrones. 
+\end{enumerate}
+
+\textbf{\textit{Listas para la compra}}
+\begin{itemize}
+
+\item[1] Cebolla
+
+\item[2] Bacon 
+\begin{itemize} 
+	\item Bacon ahumado \item  Bacon salado
+\end{itemize}
+
+\item[3] Manzanas
+  \begin{itemize}
+	\item[3.1] Manzana Golden
+	\item[3.2] Manzana Reineta
+    \item[3.3] Manzana Arinosa
+  \end{itemize}
+
+\item[4] Aceite de oliva
+\\
+\end{itemize}
+
+
+
+%nueva página en blanco sin título
+\newpage
+\section{Ecuaciones}
+
+
+{\LARGE Fórmulas matemáticas \\}
+\begin{equation} 
+\oint_{C} \overrightarrow{E} \cdot \overrightarrow{dl} = - \frac{d}{dt} \int_{S} \overrightarrow{B \cdot d\overrightarrow{S}} \ \ (Ley\ de\ Faraday)
+\end{equation}
+
+\mbox{este texto NO está enmarcado}
+\fbox{pero este texto está enmarcado}
+
+
+%nueva página en blanco sin título
+\newpage
+\section{Imágenes en latex}
+
+
+\begin{center}
+\textbf{{\Huge \textit{Dibujos animados y pelis \\}}}
+\end{center}
+
+\textbf{{\Large \textit{Imagen en escala 0.8}}}
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=1, angle=45]{../../Desktop/minions.jpeg} 
+\caption{Minions}\label{fig:Virtual}
+\end{figure}
+
+
+\textbf{{\Large \textit{Figura compuesta}}}
+\begin{figure}
+\centering
+%\subfigure[Starks]{}
+\includegraphics[scale=0.5]{../../Desktop/mounstrosSA.jpeg}
+\caption{Mounstros SA}\label{fig:mounstros} 
+%\subfigure[Starks]{\includegraphics[scale=0.5]{../Directorio/Estudios/DOCTORADO-TESIS/imagenes/espacio holografico.jpeg}}
+\includegraphics[scale=0.5]{../../Desktop/nemoDori.jpeg} 
+\caption{Buscando a nemo}\label{fig:nemo}
+\end{figure}
+
+%\textbf{{\Large \textit{Figura y texto}}}
+%\begin{wrapfigure}{r}{40mm}
+%\begin{center}
+%\subfigure[Starks]{}
+%\includegraphics[scale=1]{../../Desktop/perrillo.jpeg} 
+%\subfigure[Starks]{\includegraphics[scale=0.5]{../Directorio/Estudios/DOCTORADO-TESIS/imagenes/espacio holografico.jpeg}}
+%\paragraph{Este texto debería de salir al lado}
+%\end{center}
+%\end{wrapfigure}
+
+
+\begin{figure}[h]
+\begin{center}
+\begin{tabular}{lll}
+\includegraphics[scale=0.3]{../../Desktop/minions.jpeg}
+& \includegraphics*[scale=0.3]{../../Desktop/minions.jpeg}
+& \includegraphics*[scale=0.3]{../../Desktop/minions.jpeg}\\
+
+\end{tabular}
+\end{center}
+\caption{Figuras en formato...}\label{ML:figuras262728}
+\end{figure}
+
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,42 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\author{Maria del Carmen}
+\begin{document}
+
+%ejemplos de ecuaciones sencillas puntuales
+$ a =  b  *  x  +  c $ % sin formato centrado...	
+$$ a =  b  *  x  +  c $$ % centrado, destacado
+\\ \\
+Tenemos la equivalencia $\frac{a}{b}= \frac{c}{d}$, válida para todo $a$, $b$, $c$, $d$ \\ \\
+Tenemos la equivalencia $$\frac{a}{b}=\frac{c}{d}$$ válida para todo  $a$, $b$, $c$, $d$ \\ \\
+
+
+%si queremos escribir mas ecuaciones definimos un entorno
+\begin{displaymath}
+  y=x^{2} * \pi 
+\end{displaymath}\\ 
+
+\begin{center}
+\textbf{Ecuaciones de Maxwell:} \\
+\end{center} 
+
+\begin{equation}
+\phi = \oint_{S} \overrightarrow{E}\cdot d\overrightarrow{S}= \frac{q_{enc}}{\varepsilon_{0}}   (Ley\ de\ Gauss)
+\end{equation} 
+
+\begin{equation}
+\oint_{S} \overrightarrow{B}\cdot d\overrightarrow{S} = 0(Ley\ de\ Gauss\ para\ el\ campo\ matematico
+\end{equation}
+
+\begin{equation} 
+\oint_{C} \overrightarrow{E} \cdot \overrightarrow{dl} = - \frac{d}{dt} \int_{S} \overrightarrow{B \cdot d\overrightarrow{S}} \ \ (Ley\ de\ Faraday)
+\end{equation}
+
+
+\end{document}
